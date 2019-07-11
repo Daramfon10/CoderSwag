@@ -13,6 +13,8 @@
 		CBE4283522D6991700669B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE4283422D6991700669B54 /* Assets.xcassets */; };
 		CBE4283822D6991700669B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE4283622D6991700669B54 /* LaunchScreen.storyboard */; };
 		CBE4284322D6C0CC00669B54 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4284222D6C0CC00669B54 /* CategoryCell.swift */; };
+		CBE4284522D7DC7B00669B54 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4284422D7DC7B00669B54 /* Category.swift */; };
+		CBE4284822D7E15E00669B54 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4284722D7E15E00669B54 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBE4283722D6991700669B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBE4283922D6991700669B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE4284222D6C0CC00669B54 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CBE4284422D7DC7B00669B54 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CBE4284722D7E15E00669B54 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		CBE4282C22D6991500669B54 /* coderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4284622D7E12D00669B54 /* Service */,
 				CBE4284122D6C07B00669B54 /* View */,
 				CBE4284022D6C06F00669B54 /* Controller */,
 				CBE4283F22D6C01A00669B54 /* Model */,
@@ -71,6 +76,7 @@
 		CBE4283F22D6C01A00669B54 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4284422D7DC7B00669B54 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				CBE4284222D6C0CC00669B54 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CBE4284622D7E12D00669B54 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CBE4284722D7E15E00669B54 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				CBE4283022D6991500669B54 /* CategoriesVC.swift in Sources */,
 				CBE4282E22D6991500669B54 /* AppDelegate.swift in Sources */,
 				CBE4284322D6C0CC00669B54 /* CategoryCell.swift in Sources */,
+				CBE4284522D7DC7B00669B54 /* Category.swift in Sources */,
+				CBE4284822D7E15E00669B54 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
