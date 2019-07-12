@@ -19,5 +19,6 @@ class CategoryCell: UITableViewCell {
         categoryTitle.text = category.title
         
     }
+    
 
 }
